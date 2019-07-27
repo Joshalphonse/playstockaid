@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import { Button } from "semantic-ui-react";
+import StockCards from "./StockCards";
 //css
 import landingPageImage from "../styles/landingPageImage.css";
 const Header = props => {
@@ -24,6 +25,10 @@ const Header = props => {
           </h1>
         </div>
 
+        <div>
+        <h3> Our Mission is to educate and empower our users how to build wealth on their own by becoming financially literate.</h3>
+        </div>
+
         <Link to={`/login`}>
           <a href="/login" className="btn btn-white btn-animated">
             {" "}
@@ -31,6 +36,10 @@ const Header = props => {
           </a>
         </Link>
       </header>
+
+      <div>
+      cards
+      </div>
     </div>
   );
 };
