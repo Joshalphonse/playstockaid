@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react';
 
-export default class MenuExampleStackable extends Component {
+export default class Navbar extends Component {
   state = {}
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })

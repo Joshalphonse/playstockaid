@@ -13,6 +13,10 @@ body {
   padding: 35px;
 }
 
+.mission{
+  text-align: center;
+}
+
 /* vh is the viewport height */
 .header {
   /* height: 95vh; */
